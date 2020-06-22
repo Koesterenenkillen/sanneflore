@@ -1,0 +1,40 @@
+@charset "UTF-8";
+.body {
+	background-repeat: no-repeat;
+	background-image: url(WebV2/Img/vogelbg.png);
+	background-size: 68% auto;
+	background-position: 45% 0%;
+	width: auto;
+	height: auto;
+}
+.back {
+	font-size: 20px;
+	color: #EA062C;
+	text-decoration: none;
+	text-align: left;
+	letter-spacing: 3px;
+	width: 200px;
+}
+.audio{
+	width: auto;
+	height: auto;
+}
+/*pluk*/
+.plukouter{
+	height: 300px;
+	width: 300px;
+	position: absolute;
+	top: 67px;
+	left: 27px;
+}
+.plukinner{
+	height: 20px;
+	width: 60px;
+	background: white;
+}
+img{
+	height: auto;
+	width: 100px;
+	display:none;}
+.plukinner:hover img{
+	display: block}

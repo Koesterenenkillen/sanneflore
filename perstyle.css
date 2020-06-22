@@ -1,0 +1,156 @@
+@charset "UTF-8";
+.perstyle {
+	font-size: 20px;
+	text-decoration: none;
+	text-align: center;
+	background-image: url(WebV2/Gif/PBGbig.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.section{
+	position: relative;
+	width: 100%;
+	height: 100vh;
+}
+.sectionvideo{
+	pointer-events: absolute;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+section .navigation{
+	position: absolute;
+	bottom: 40;
+	left:50%;
+	transform: translateX(-50%);
+	z-index: 100;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+section .navigation li{
+	list-style: none;
+	cursor: pointer;
+	margin: 0 10px;
+	border-radius: 4px;
+	background: #fff;
+	padding: 3px 3px 0;
+	opacity: 0.7;
+	transition: 0.5s;
+}
+section .navigation li:hover{
+	opacity: 1;
+}
+section .navigation li img{
+	width: 120px;
+	transition: 0.5s;
+}
+section .navigation li img:hover{
+	width: 200px;
+	opacity: 1;
+}
+
+
+
+.back {
+	width: 100px;
+	height: auto;
+	text-decoration: none;
+	font-size: 20px;
+	letter-spacing: 3px;
+	position: absolute;
+	left: 0px;
+	margin-left: 5px;
+	margin-top: 5px;
+	color: #FF0400;
+}
+.h1{
+	color: #FF0400;
+	letter-spacing: 10px;
+	word-spacing: 10px;
+}
+.p1 {
+	width: 900px;
+	display: block;
+	font-size: 24px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	text-align: center;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+}
+.text {
+	width: 900px;
+	display: block;
+	word-break: normal;
+	background-size: 125% auto;
+	position: relative;
+	left: 25%;
+	background-image: url(WebV2/Img/sunfull.png);
+	background-repeat: no-repeat;
+	background-position: 47% 21%;
+}
+.p11 {
+	display: block;
+	text-align: left;
+	margin-left: 50px;
+	margin-top: 10px;
+	font-size: 16px;
+	font-style: italic;
+}
+.p12 {
+	display: block;
+	text-align: left;
+	margin-left: 50px;
+	margin-top: 10px;
+	font-size: 16px;
+	font-style: normal;
+}
+.p13 {
+	display: block;
+	text-align: left;
+	margin-left: 50px;
+	margin-top: 10px;
+	font-size: 16px;
+	font-style: normal;
+}
+.p14 {
+	display: block;
+	margin-left: 50px;
+	margin-top: 10px;
+	text-align: left;
+	font-size: 16px;
+	font-style: normal;
+}
+.p2 {
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 10px;
+	display: block;
+	text-align: left;
+	font-size: 20px;
+}
+.p3 {
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 10px;
+	display: block;
+	text-align: left;
+	font-size: 22px;
+}
+.image{
+	width: auto;
+	height: auto;
+	margin-top: 40px;
+	margin-bottom: 0px;
+}
+.image1 {
+	width: 500px;
+	height: auto;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.image2{
+	width: 500px;
+	margin-left: 20px;
+	margin-right: 20px;
+}

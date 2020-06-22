@@ -1,0 +1,540 @@
+@charset "UTF-8";
+.body {
+	background-image: url(WebV2/Img/plukbg.png);
+	background-size: cover;
+	top: -5px;
+	left: auto;
+	position: absolute;
+	background-repeat: no-repeat;
+	word-break: normal;
+	z-index: 0;
+	display: block;
+	height: auto;
+	width: auto;
+}
+/*@-webkit-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    49% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@-moz-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    49% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@-o-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    49% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+.img {
+    -webkit-animation: blink 1s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: blink 1s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: blink 1s;
+    -o-animation-iteration-count: infinite;
+}*/
+
+.note{
+	width: 400px;
+	z-index: 8;
+	background-image: url(WebV2/Img/beweegdemuis.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 300px;
+}
+
+
+/*pluk*/
+.plukouter{
+	height: 182px;
+	width: 156px;
+	position: absolute;
+	top: 67px;
+	left: 27px;
+}
+.plukinner{
+	height: 20px;
+	width: 60px;
+	background: white;
+}
+img{
+	height: auto;
+	width: 200px;
+	display: none;
+}
+.plukinner:hover img{
+	display: block}
+
+/*een opblassbare dolfijn*/
+.opblouter{
+	height: 182px;
+	width: 156px;
+	position: absolute;
+	top: 616px;
+	left: 24px;
+}
+.opblinner{
+	height: 20px;
+	width: 60px;
+	background: white;
+}
+img{
+	height: auto;
+	width: 200px;
+	display: none;
+}
+.opblinner:hover img{
+	display: block}
+
+
+/*je van ver dicht bij te halen of juist een andere kant op te sturen*/
+.jeouter{
+	height: 182px;
+	width: 156px;
+	position: absolute;
+	top: 40px;
+	left: 1214px;
+}
+.jeinner{
+	height: 50px;
+	width: 200px;
+	background: white;
+}
+img{
+	height: auto;
+	width: 200px;
+	display: none;
+}
+.jeinner:hover img{
+	display: block}
+
+/*met het dier nodigt uit*/
+.nodouter{
+	height: 182px;
+	width: 156px;
+	position: absolute;
+	top: 165px;
+	left: 458px;
+}
+.nodinner{
+	height: 20px;
+	width: 60px;
+	background: white;
+}
+img{
+	height: auto;
+	width: 200px;
+	display: none;
+}
+.nodinner:hover img{
+	display: block}
+
+
+/*een hulpmiddle om je gevoel bloot te leggen.*/
+.hulpouter{
+	height: 182px;
+	width: 156px;
+	position: absolute;
+	top: 403px;
+	left: 27px;
+}
+.hulpinner{
+	height: 20px;
+	width: 60px;
+	background: white;
+}
+img{
+	height: auto;
+	width: 200px;
+	display: none;
+}
+.hulpinner:hover img{
+	display: block}
+
+/*gevoelswereld*/
+.gevoeouter{
+	height: 182px;
+	width: 156px;
+	position: absolute;
+	top: 455px;
+	left: 1246px;
+	display: block;
+}
+.gevoeinner{
+	height: 35px;
+	width: 80px;
+	background: white;
+	display: block;
+}
+img{
+	height: auto;
+	width: 200px;
+	display: none;
+}
+.gevoeinner:hover img{
+	display: block}
+/*te imponeren, je mee te nemen*/
+.impouter{
+	height: 182px;
+	width: 156px;
+	position: absolute;
+	top: 722px;
+	left: 244px;
+	display: block;
+}
+.impoinner{
+	height: 35px;
+	width: 110px;
+	background: white;
+	display: block;
+}
+img{
+	height: auto;
+	width: 200px;
+	display: none;
+}
+.impoinner:hover img{
+	display: block}
+
+/*fysieke uitputting.*/
+.fysiekeouter{
+	height: 182px;
+	width: 156px;
+	position: absolute;
+	top: 171px;
+	left: 985px;
+	display: block;
+}
+.fysiekeinner{
+	height: 35px;
+	width: 80px;
+	background: white;
+	display: block;
+}
+img{
+	height: auto;
+	width: 200px;
+	display: none;
+}
+.fysiekeinner:hover img{
+	display: block}
+
+/*Er wordt een verhaal vertelt*/
+.wordtouter{
+	height: 182px;
+	width: 156px;
+	position: absolute;
+	top: 213px;
+	left: 1259px;
+	display: block;
+}
+.wordtinner{
+	height: 30px;
+	width: 100px;
+	background: white;
+	display: block;
+}
+img{
+	height: auto;
+	width: 200px;
+	display: none;
+}
+.wordtinner:hover img{
+	display: block}
+
+/*confrontatie*/
+.confouter{
+	height: 165px;
+	width: 179px;
+	position: absolute;
+	top: 567px;
+	left: 456px;
+}
+.confinner{
+	height: 20px;
+	width: 80px;
+	background: white;
+}
+img{
+	height: auto;
+	width: 100px;
+	display:none;}
+.confinner:hover img{
+	display: block}
+
+
+/*tussen jou en het dier*/
+.tussenouter{
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	top: 655px;
+	left: 1076px;
+}
+.tusseninner{
+	height: 20px;
+	width: 60px;
+	background: white;
+}
+img{
+	height: auto;
+	width: 100px;
+	display:none;}
+.tusseninner:hover img{
+	display: block}
+
+/*een lokroep om*/
+.lokouter{
+	height: 127px;
+	width: 183px;
+	position: absolute;
+	top: 415px;
+	left: 985px;
+}
+.lokinner{
+	background: white;
+	width: 150px;
+	height: 20px;
+}
+img{
+	height: auto;
+	width: 100px;
+	display:none;}
+.lokinner:hover img{
+	display: block}
+
+
+/*kom dichterbij*/
+.komouter{
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	top: 658px;
+	left: 780px;
+}
+.kominner{
+	height: 20px;
+	width: 60px;
+	background: white;
+}
+img{
+	height: auto;
+	width: 100px;
+	display:none;}
+.kominner:hover img{
+	display: block;
+	height: 80px;
+	width: auto;
+}
+
+/*plastic*/
+.plasouter{
+	height: 126px;
+	width: 69px;
+	position: absolute;
+	top: 456px;
+	left: 1138px;
+}
+.plasinner{
+	height: 20px;
+	width: 60px;
+	background: white;
+}
+img{
+	height: auto;
+	width: 100px;
+	display:none;}
+.plasinner:hover img{
+	display: block;
+	width: 80px;
+	height: auto;
+}
+
+
+/*in een podcast*/
+.inouter{
+	height: 166px;
+	width: 151px;
+	position: absolute;
+	top: 405px;
+	left: 802px;
+}
+.ininner{
+	width: 60px;
+	background: white;
+	height: auto;
+}
+img{
+	height: auto;
+	width: 100px;
+	display:none;}
+.ininner:hover img{
+	display: block;
+	height: 50px;
+	width: auto;
+}
+
+
+/*als kind*/
+.alsouter{
+	height: 137px;
+	width: 147px;
+	position: absolute;
+	top: 16px;
+	left: 955px;
+}
+.alsinner{
+	height: 20px;
+	width: 60px;
+	background: white;
+}
+img{
+	height: auto;
+	width: 100px;
+	display:none;}
+.alsinner:hover img{
+	display: block;
+	width: 100px;
+	height: auto;
+}
+
+
+/*die*/
+.dieouter{
+	height: 158px;
+	width: 151px;
+	position: absolute;
+	top: 244px;
+	left: 219px;
+}
+.dieinner{
+	height: 20px;
+	width: 50px;
+	background: white;
+}
+img{
+	height: auto;
+	width: 100px;
+	display:none;}
+.dieinner:hover img{
+	display: block}
+
+/*vogel*/
+.vogelouter{
+	position: absolute;
+	top: 505px;
+	left: 93px;
+	width: 247px;
+	height: 176px;
+}
+.vogelinner{
+	height: 20px;
+	width: 50px;
+	margin: 100px;
+	background: white;
+}
+img{
+	height: auto;
+	width: 100px;
+	display:none;}
+.vogelinner:hover img{
+	display: block}
+.ontmoeinner:hover img{
+	display: block}
+
+/*de*/
+.deouter{
+	height: 147px;
+	width: 155px;
+	position: absolute;
+	top: 30px;
+	left: 517px;
+}
+.deinner{
+	height: 20px;
+	width: 50px;
+	background: white;
+}
+img{
+	height: auto;
+	width: 100px;
+	display:none;}
+.deinner:hover img{
+	display: block}
+
+
+/*oerkreten*/
+.oerkouter{
+	height: 153px;
+	width: 169px;
+	position: absolute;
+	top: 327px;
+	left: 528px;
+}
+.oerkinner{
+	height: 20px;
+	width: 80px;
+	background: white;
+	text-align: center;
+}
+img{
+	height: auto;
+	width: 100px;
+	display:none;}
+.oerkinner:hover img{
+	display: block}
+
+/*ontmoe*/
+.ontmoeouter{
+	height: 118px;
+	width: 125px;
+	position: absolute;
+	top: 141px;
+	left: 830px;
+}
+.ontmoeinner{
+	height: 20px;
+	width: 100px;
+	background: white;
+	text-align: center;
+}
+img{
+	height: 100px;
+	display:none;}
+.back {
+	font-size: 20px;
+	color: #EA062C;
+	text-decoration: none;
+	letter-spacing: 3px;
+	width: auto;
+	height: auto;
+}
