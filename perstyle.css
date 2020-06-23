@@ -4,8 +4,8 @@
 	text-decoration: none;
 	text-align: center;
 	background-image: url(WebV2/Gif/PBGbig.gif);
-	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: contain;
+	background-repeat: repeat-y;
 }
 .section{
 	position: relative;
@@ -85,7 +85,6 @@ section .navigation li img:hover{
 	background-size: 125% auto;
 	position: relative;
 	left: 25%;
-	background-image: url(WebV2/Img/sunfull.png);
 	background-repeat: no-repeat;
 	background-position: 47% 21%;
 }
