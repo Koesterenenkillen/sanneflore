@@ -97,17 +97,17 @@
 	display: block;
 }
 .p3 {
-	padding-top: 20px;
-	margin-top: 20px;
+	margin-top: 10px;
 	margin-bottom: 20px;
 	display: block;
 }
 .p5 {
-	margin-top: 0px;
+	margin-top: 10px;
 	font-size: 16px;
 	text-decoration: none;
-	font-weight: bold;
+	font-weight: normal;
 	display: block;
+	font-style: italic;
 }
 .frame1 {
 	width: 500px;
