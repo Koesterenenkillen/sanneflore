@@ -2,10 +2,12 @@
 .body {
 	background-repeat: no-repeat;
 	background-image: url(WebV2/Img/vogelbg.png);
-	background-size: 68% auto;
-	background-position: 45% 0%;
-	width: auto;
+	width: 1200px;
+	background-size: 51% auto;
+	z-index: 2;
+	display: block;
 	height: auto;
+	background-position: 44% 11%;
 }
 .back {
 	font-size: 20px;
@@ -16,7 +18,8 @@
 	width: 200px;
 }
 .audio{
-	width: auto;
+	width: 1200px;
+	z-index: 4;
 	height: auto;
 }
 .angst {
@@ -30,45 +33,39 @@
 	height: auto;
 	display: block;
 	position: relative;
-	top: 201px;
-	left: 687px;
-}
-.note {
-	width: 500px;
-	display: block;
+	top: 245px;
+	left: 776px;
 }
 .food {
 	width: 80px;
-	display: block;
 	position: relative;
-	left: 837px;
-	top: -300px;
+	top: -60px;
+	left: 896px;
 }
 .licht {
 	position: relative;
 	width: 100px;
 	display: block;
-	top: -211px;
-	left: 403px;
+	left: 442px;
 }
 .blik {
 	width: 120px;
 	display: block;
 	position: relative;
-	left: 773px;
-	top: -263px;
+	top: -4px;
+	left: 833px;
 }
 .myself {
 	width: 100px;
 	display: block;
 	position: relative;
-	top: -354px;
-	left: 718px;
+	top: -108px;
+	left: 729px;
 }
 .twij {
 	width: 100px;
 	display: block;
 	position: relative;
-	left: 601px;
-	top: -302px;
+	left: 535px;
+	top: -47px;
 }
