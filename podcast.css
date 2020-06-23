@@ -140,12 +140,13 @@
 	top: 42px;
 }
 .bg{
-	z-index: 4;
-	position: static;
-	top: -20px;
+	z-index: 2;
+	position: absolute;
 	width: auto;
 	height: auto;
 	display: block;
+	top: -130px;
+	margin-left: 10px;
 }
 .pod2 {
 	position: relative;
@@ -192,6 +193,8 @@
 }
 .pod1 {
 	opacity: 0.3;
+	position: relative;
+	top: -415px;
 }
 .pod7 {
 	position: relative;
@@ -271,7 +274,7 @@
 	top: -493px;
 	z-index: 2;
 	left: 576px;
-	width: auto;
+	width: 800px;
 }
 .note {
 	width: 100px;
