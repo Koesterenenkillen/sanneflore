@@ -253,6 +253,7 @@
 	position: relative;
 	top: 156px;
 	left: 144px;
+	z-index: 8;
 }
 .info{
 	display: block;
