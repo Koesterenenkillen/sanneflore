@@ -69,12 +69,12 @@
 .kee{
 	width: 300px;
 	position: absolute;
-	top: 500px;
+	top: 395px;
 }
 .kee2{
 	display: block;
 	position: absolute;
-	top: 530px;
+	top: 403px;
 	width: 300px;
 	margin-left: 50px;
 }
@@ -185,4 +185,35 @@
 	left: 21%;
 	top: 8%;
 	z-index: 6;
+}
+.simmeA{
+	display: block;
+	position: relative;
+	top: 500px;
+	left: 38px;
+}
+.simme {
+	display: block;
+	width: 250px;
+	top: auto;
+}
+.simme2{
+	width: 300px;
+	display: block;
+	position: relative;
+	top: -69px;
+}
+.suzanneA{
+	display: block;
+	position: fixed;
+	top: 77%;
+	left: 77%;
+}
+.suzanne2{
+	width: 250px;
+	position: relative;
+	top: -71px;
+}
+.suzanne{
+	width: 250px;
 }
