@@ -152,16 +152,17 @@
 .pod2 {
 	position: relative;
 	opacity: 0.3;
-	top: 402px;
+	top: 768px;
 }
 .pod3 {
 	position: relative;
 	opacity: 0.3;
-	top: 165px;
+	top: 516px;
 }
 .pod4 {
 	position: relative;
 	opacity: 0.3;
+	top: 287px;
 }
 .img1 {
 	z-index: 0;
@@ -189,6 +190,7 @@
 .pod5 {
 	position: relative;
 	opacity: 0.3;
+	top: 139px;
 }
 .pod6 {
 	position: relative;
@@ -197,7 +199,7 @@
 .pod1 {
 	opacity: 0.3;
 	position: relative;
-	top: -415px;
+	top: 990px;
 }
 .pod7 {
 	position: relative;
