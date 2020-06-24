@@ -71,7 +71,7 @@
 	font-size: 18px;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 	font-style: normal;
-	font-weight: bold;
+	font-weight: normal;
 }
 .text {
 	width: 600px;
@@ -103,11 +103,12 @@
 }
 .p5 {
 	margin-top: 10px;
-	font-size: 16px;
+	font-size: 18px;
 	text-decoration: none;
 	font-weight: normal;
 	display: block;
 	font-style: italic;
+	word-spacing: 2px;
 }
 .frame1 {
 	width: 500px;
