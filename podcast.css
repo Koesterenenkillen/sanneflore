@@ -265,6 +265,13 @@
 	left: 38px;
 	z-index: 4;
 }
+.info2{
+	width: 250px;
+	display: block;
+	left: 38px;
+	position: relative;
+	top: 208px;
+}
 .p6 {
 }
 .p7 {
