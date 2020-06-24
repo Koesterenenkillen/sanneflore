@@ -62,7 +62,7 @@
 	left: auto;
 	height: 0px;
 	width: auto;
-	z-index: 8;
+	z-index: 10;
 }
 .p1 {
 	display: block;
@@ -166,7 +166,7 @@
 	top: 287px;
 }
 .img1 {
-	z-index: 0;
+	z-index: 1;
 	position: fixed;
 	width: 350px;
 }
@@ -201,6 +201,7 @@
 	opacity: 0.3;
 	position: relative;
 	top: 990px;
+	z-index: 1;
 }
 .pod7 {
 	position: relative;
