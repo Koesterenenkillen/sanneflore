@@ -141,8 +141,8 @@ section .navigation li img:hover{
 	height: auto;
 	margin-top: 300px;
 	margin-bottom: 0px;
-	position: relative;
-	top: 2500px;
+	position: absolute;
+	top: 1400px;
 }
 .image1 {
 	width: 500px;
