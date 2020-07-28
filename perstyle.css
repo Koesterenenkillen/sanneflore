@@ -139,10 +139,10 @@ section .navigation li img:hover{
 .image{
 	width: auto;
 	height: auto;
-	margin-top: 300px;
+	margin-top: 40px;
 	margin-bottom: 0px;
-	position: absolute;
-	top: 2500px;
+	position: relative;
+	top: 726px;
 }
 .image1 {
 	width: 500px;
